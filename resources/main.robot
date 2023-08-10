@@ -1,7 +1,8 @@
 # AQUI É ONDE DECLARAMOS TODAS AS NOSSAS CONTROLLERS, CONFIGS E TUDO QUE O PROJETO VAI UTILIZAR #
 *** Settings ***
 # BIBLIOTECAS
-Library  robotframework-seleniumlibrary
+Library  SeleniumLibrary
+Library  RequestsLibrary
 Library  AppiumLibrary
 
 # resources/utils
