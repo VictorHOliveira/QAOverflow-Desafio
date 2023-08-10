@@ -2,15 +2,16 @@
 *** Settings ***
 # BIBLIOTECAS
 Library  SeleniumLibrary
-Library  RequestsLibrary
-Library  AppiumLibrary
-
-# resources/utils
-Variables  ${ROOT}/resources/utils/config_helper.py
 
 # resources/pages/shared
-Resource  ${ROOT}/resources/pages/shared/hook.robot
-Resource  ${ROOT}/resources/pages/shared/setups_teardowns.robot
+Resource  ${EXECDIR}/resources/pages/shared/click.robot
+Resource  ${EXECDIR}/resources/pages/shared/write.robot
+Resource  ${EXECDIR}/resources/pages/shared/hook.robot
+Resource  ${EXECDIR}/resources/pages/shared/setups_teardowns.robot
+
+# resources/pages/controller
+Resource  ${EXECDIR}/resources/pages/controllers/model_controller.robot
+
 
 # resources/data
-Resource  ${ROOT}/resources/data/data.robot
+Resource  ${EXECDIR}/resources/data/data.robot

@@ -14,7 +14,7 @@ TODO: Guide users through getting your code up and running on their own system. 
     - Here we have all test cases.
 
 - RESOURCES / MAIN.ROBOT
-    - This file contains all of librarys instantiated and the way of our controllers, then if you call this like *Resource  ${ROOT}/resources/main.robot* on anyone file of this project, your resources are instantiated automatically.
+    - This file contains all of librarys instantiated and the way of our controllers, then if you call this like *Resource  ${EXECDIR}/resources/main.robot* on anyone file of this project, your resources are instantiated automatically.
 
 - SHARED / HOOK.ROBOT
     - Now here have the file hook, that contains keywords with flows to help you and the project like a Start Aplication, Close Aplication and others.

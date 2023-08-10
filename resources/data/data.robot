@@ -3,5 +3,9 @@
 
 *** Variables ***
 &{credentials}
-...  user_01_exemplo=0
-...  password_01_exemplo=123456
+...  Pass=secret_sauce
+...  UserSTD=standard_user
+...  UserLKD=locked_out_user
+
+&{URL}
+...  SauceDemo=https://www.saucedemo.com/
