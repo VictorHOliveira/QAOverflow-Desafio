@@ -38,7 +38,7 @@ TODO: Guide users through getting your code up and running on their own system. 
     - And finally we have here the APK that you use to test.
 
 # Clone Project
-- GitHub: https://github.com/VictorHOliveira/Victor-Robot
+- GitHub: https://github.com/VictorHOliveira/QAOverflow-Desafio
 
 # Execute Tests
 Step 1:
@@ -53,4 +53,4 @@ Step 2:
 # Contribute
 - Victor Hugo de Oliveira | *Especialist Automation*
     - victor.oliver87@gmail.com
-    - https://github.com/VictorHOliveira/Victor-Robot
+    - https://github.com/VictorHOliveira/QAOverflow-Desafio

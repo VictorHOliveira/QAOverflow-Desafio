@@ -1,6 +1,7 @@
 # AQUI É ONDE DECLARAMOS TODAS AS NOSSAS CONTROLLERS, CONFIGS E TUDO QUE O PROJETO VAI UTILIZAR #
 *** Settings ***
 # BIBLIOTECAS
+Library  robotframework-seleniumlibrary
 Library  AppiumLibrary
 
 # resources/utils
@@ -11,4 +12,4 @@ Resource  ${ROOT}/resources/pages/shared/hook.robot
 Resource  ${ROOT}/resources/pages/shared/setups_teardowns.robot
 
 # resources/data
-Resource  ${ROOT}/resources/data/credentials.robot
+Resource  ${ROOT}/resources/data/data.robot
